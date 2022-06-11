@@ -3,10 +3,22 @@ body {
     text-align: center;
     color: #4f4f4f;
     line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin-top: 0;
 }
 
 #img-div {
@@ -27,6 +39,7 @@ img {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+    aspect-ratio: 1400 / 1032;
 }
 
 ul {
@@ -57,7 +70,7 @@ blockquote p {
 
 h1 {
     font-size: 4rem;
-    margin-bottom: 0;
+    margin: 0 auto;
     color: #1f1f1f;
 }
 
